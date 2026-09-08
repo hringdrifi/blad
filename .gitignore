@@ -1,0 +1,12 @@
+# KiCad local state and automatic backups
+*-backups/
+*.bak
+*.kicad_prl
+_autosave-*.kicad_*
+~*.lck
+
+# Generated STEP exports placed directly in pcb/ (not pcb/3dmodels/)
+/pcb/*.step
+
+# Generated fabrication output
+/pcb/production/

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Smidr")(type "KiCad")(uri "${KIPRJMOD}/smidr.kicad_sym")(options "")(descr "Smiðr generated symbols"))
+)

@@ -1,5 +1,7 @@
 # Blað
 
+The previous HY0020-based version is available in the [blad-hy0020 repository](https://github.com/hringdrifi/blad-hy0020).
+
 Blað is a compact wireless keyboard design project by [hringdrifi](https://github.com/hringdrifi).
 
 ![Blað, top view](assets/blad-top-view.png)

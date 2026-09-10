@@ -4690,6 +4690,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Smidr:SW_SPDT_Shielded"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S1"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MSK12C02-HB2.5"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C47020937"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_Shielded_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_Shielded_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -5158,214 +5377,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "local:SW_SPDT_Shielded"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT_Shielded"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPDT_Shielded_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_Shielded_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5912,6 +5923,121 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -6508,6 +6634,14 @@
 		(uuid "fdeeb073-4a4d-44c1-a9f0-a2afebb406b8")
 	)
 	(no_connect
+		(at 242.57 185.42)
+		(uuid "2654e308-dd70-4e85-99c4-0b30c5cd2650")
+	)
+	(no_connect
+		(at 242.57 142.24)
+		(uuid "413ae150-39c5-4d22-b47f-ca8610dd28e4")
+	)
+	(no_connect
 		(at 144.78 151.13)
 		(uuid "43a9c50a-d042-4da2-90c2-33c659c6642d")
 	)
@@ -6516,8 +6650,24 @@
 		(uuid "59dbba8a-7092-4e9f-ba8b-154852c59e79")
 	)
 	(no_connect
+		(at 242.57 144.78)
+		(uuid "6f02c839-cc06-4d10-b1b6-877fe15605c4")
+	)
+	(no_connect
+		(at 242.57 182.88)
+		(uuid "732cf08c-d0d6-484f-906c-ceac8e6172f1")
+	)
+	(no_connect
+		(at 242.57 180.34)
+		(uuid "8f964514-a53e-4667-b5a0-cbafa0938900")
+	)
+	(no_connect
 		(at 48.26 163.83)
 		(uuid "d3035ebb-d183-49f2-a467-f41d077d0be4")
+	)
+	(no_connect
+		(at 242.57 187.96)
+		(uuid "e247dd24-ea8b-48ff-bdde-02e935b3dde6")
 	)
 	(wire
 		(pts
@@ -9361,7 +9511,7 @@
 	)
 	(global_label "COL3"
 		(shape output)
-		(at 260.35 146.05 0)
+		(at 242.57 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9371,7 +9521,7 @@
 		)
 		(uuid "03da8387-5f2c-4ae8-93e0-720a12e7d930")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1733 146.05 0)
+			(at 250.3933 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9385,7 +9535,7 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 260.35 166.37 0)
+		(at 242.57 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9395,7 +9545,7 @@
 		)
 		(uuid "0f3c720e-8f88-4c02-8c4e-a569c6109a76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5966 166.37 0)
+			(at 250.8166 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,7 +9607,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 260.35 156.21 0)
+		(at 242.57 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9467,7 +9617,7 @@
 		)
 		(uuid "197e903d-fb6f-4da9-b93b-545ff2dfc4f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5966 156.21 0)
+			(at 250.8166 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,7 +9631,7 @@
 	)
 	(global_label "COL4"
 		(shape output)
-		(at 260.35 143.51 0)
+		(at 242.57 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9491,7 +9641,7 @@
 		)
 		(uuid "213905ba-3d81-4908-85b9-5e499da1ac74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1733 143.51 0)
+			(at 250.3933 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9865,7 +10015,7 @@
 	)
 	(global_label "ROW6"
 		(shape input)
-		(at 260.35 153.67 0)
+		(at 242.57 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9875,7 +10025,7 @@
 		)
 		(uuid "6dddff93-86c0-41fe-bf10-66179f9b6d84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5966 153.67 0)
+			(at 250.8166 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9985,7 +10135,7 @@
 	)
 	(global_label "ROW5"
 		(shape input)
-		(at 260.35 171.45 0)
+		(at 242.57 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9995,7 +10145,7 @@
 		)
 		(uuid "77f59d5d-5ac6-4d04-a9f7-899796fd5be2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5966 171.45 0)
+			(at 250.8166 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,7 +10231,7 @@
 	)
 	(global_label "COL2"
 		(shape output)
-		(at 260.35 176.53 0)
+		(at 242.57 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10091,7 +10241,7 @@
 		)
 		(uuid "7e39f4e2-787e-4f81-9e9c-70c4551f3fd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1733 176.53 0)
+			(at 250.3933 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10105,7 +10255,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 260.35 158.75 0)
+		(at 242.57 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10115,7 +10265,7 @@
 		)
 		(uuid "8247ec35-05bd-4640-803b-6f35d62298b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5966 158.75 0)
+			(at 250.8166 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10129,7 +10279,7 @@
 	)
 	(global_label "COL5"
 		(shape output)
-		(at 260.35 168.91 0)
+		(at 242.57 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10139,7 +10289,7 @@
 		)
 		(uuid "82acb001-b38e-41c8-bdb8-49c74daa1c56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1733 168.91 0)
+			(at 250.3933 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10199,6 +10349,30 @@
 			)
 		)
 	)
+	(global_label "VDD"
+		(shape output)
+		(at 106.68 121.92 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae944dd7-c0cc-464b-ad49-007eb8564e12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 115.3062 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ROW6"
 		(shape output)
 		(at 22.86 111.76 180)
@@ -10225,7 +10399,7 @@
 	)
 	(global_label "ROW4"
 		(shape input)
-		(at 260.35 163.83 0)
+		(at 242.57 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10235,7 +10409,7 @@
 		)
 		(uuid "b6600150-0092-4b4f-acd1-e2d86bb53293")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5966 163.83 0)
+			(at 250.8166 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10297,7 +10471,7 @@
 	)
 	(global_label "COL0"
 		(shape output)
-		(at 260.35 151.13 0)
+		(at 242.57 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10307,7 +10481,7 @@
 		)
 		(uuid "ca671686-8adc-475f-8976-083af74f6240")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1733 151.13 0)
+			(at 250.3933 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10367,9 +10541,33 @@
 			)
 		)
 	)
+	(global_label "VDDH"
+		(shape output)
+		(at 116.84 121.92 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd2a8fa2-025a-4825-ba73-9a891cf8f914")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 113.9757 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ROW1"
 		(shape input)
-		(at 260.35 173.99 0)
+		(at 242.57 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10379,7 +10577,7 @@
 		)
 		(uuid "ceff686e-d198-4336-b741-8af507d51348")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5966 173.99 0)
+			(at 250.8166 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,7 +10711,7 @@
 	)
 	(global_label "COL1"
 		(shape output)
-		(at 260.35 148.59 0)
+		(at 242.57 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10523,7 +10721,7 @@
 		)
 		(uuid "dfdfe9e8-99d4-4b82-bcc3-2714775e3639")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1733 148.59 0)
+			(at 250.3933 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11921,6 +12119,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b322dc9-a511-4cba-870a-30b2b5f5922b")
+		(property "Reference" "#PWR016"
+			(at 66.04 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 66.04 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae3e182d-5a07-4410-b04c-583694b4d442")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 172.72 170.18 180)
 		(unit 1)
@@ -12011,7 +12287,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 101.6 0)
+		(at 185.42 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12021,7 +12297,7 @@
 		(dnp no)
 		(uuid "6ecb52aa-6ff7-c1b1-e82a-b3a714321602")
 		(property "Reference" "SW39"
-			(at 186.69 99.06 0)
+			(at 184.15 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12032,7 +12308,7 @@
 			)
 		)
 		(property "Value" "2.25U"
-			(at 185.42 104.14 0)
+			(at 185.42 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12042,7 +12318,7 @@
 			)
 		)
 		(property "Footprint" "Smidr:SW_Smidr_Choc_Hotswap"
-			(at 185.42 106.68 0)
+			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12053,7 +12329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 96.52 0)
+			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12441,6 +12717,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 106.68 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ec0377f-80fd-4c2c-89f1-a4c3c6f3519e")
+		(property "Reference" "#FLG06"
+			(at 106.68 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 106.68 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 106.68 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44b2e731-dc34-4c9d-8e82-3f9da7ce5263")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 25.4 173.99 0)
 		(unit 1)
@@ -12514,6 +12868,84 @@
 			(project "blad"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.36 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c850d6-0c71-4bf1-a517-214ddc8c339d")
+		(property "Reference" "#FLG04"
+			(at 86.36 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 86.36 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "279123b7-8662-489d-8f49-b217a6aa7fed")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -13501,6 +13933,83 @@
 			(project "blad"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 86.36 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9155ffc7-9403-4d7d-b088-e6ae0ac2e997")
+		(property "Reference" "#PWR018"
+			(at 86.36 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57f7214a-f811-42cd-97d5-5d61e40f9e27")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15291,6 +15800,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ed515a7-39d1-4960-9588-e803f69d1c54")
+		(property "Reference" "#FLG07"
+			(at 116.84 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "254c1f54-ac02-4f11-bd9e-d07491a617a6")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 25.4 106.68 90)
 		(unit 1)
@@ -16596,6 +17183,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 76.2 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13486d7-89fe-484d-8174-9f5cb8c9564e")
+		(property "Reference" "#PWR017"
+			(at 76.2 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a449efc-7758-4664-99c8-201f69950fec")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 96.52 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2545e5f-36bf-4e78-994e-610f26c3a88d")
+		(property "Reference" "#PWR019"
+			(at 96.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 96.52 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 96.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4906d62-3c24-4393-ba29-f06791258000")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
 		(at 55.88 143.51 0)
@@ -16763,7 +17507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local:SW_SPDT_Shielded")
+		(lib_id "Smidr:SW_SPDT_Shielded")
 		(at 139.7 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -16933,6 +17677,84 @@
 			(project "blad"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9bad6d0-9a59-4cce-aeca-fc7eecf3eaf6")
+		(property "Reference" "#FLG05"
+			(at 96.52 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b4873dd-7087-4cba-b7db-a592a7fdc7ab")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -17148,6 +17970,84 @@
 			(project "blad"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca771c8-c405-44db-b262-3a4205572f1e")
+		(property "Reference" "#FLG01"
+			(at 55.88 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a91adaca-1ca3-47f9-82f0-11b7cc72488e")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -19928,6 +20828,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 55.88 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e946de94-c8c1-46f2-a989-0e8d93276734")
+		(property "Reference" "#PWR015"
+			(at 55.88 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 55.88 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 55.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c32a573e-f02d-445e-b1ab-e3810b4a9554")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 134.62 76.2 0)
 		(unit 1)
@@ -20002,6 +20980,84 @@
 			(project "blad"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
 					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea43b603-7361-4aa9-be1d-ed8c13ed2f91")
+		(property "Reference" "#FLG02"
+			(at 66.04 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14912c21-2807-4ac5-bf91-e68573784f10")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -20608,6 +21664,84 @@
 			(project "blad"
 				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a40aff-6404-49a2-adce-f7ed5c533970")
+		(property "Reference" "#FLG03"
+			(at 76.2 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 76.2 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ec3c0fa-7d83-4c72-a6d0-f272d39002b8")
+		)
+		(instances
+			(project "blad"
+				(path "/d92a227a-b637-3678-3dde-73c505c2d660"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

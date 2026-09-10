@@ -1,4 +1,6 @@
-# Blað
+<p align="center">
+  <img src="assets/blad-logo-transparent.png" alt="Blað" width="640">
+</p>
 
 The previous HY0020-based version is available in the [blad-hy0020 repository](https://github.com/hringdrifi/blad-hy0020).
 

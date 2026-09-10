@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.475
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -106,14 +106,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|200263125|111521875|86611589-e9af-41d4-8497-5b393aa207c9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|203894531|119062500|fa4a315a-5e34-47fc-8df7-c42bf0e30f04|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|230190379|176212500|900b5472-a795-4a09-a527-cd0486006b44|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -135,26 +127,6 @@
         ],
         [
           "lib_footprint_mismatch|306390629|176212500|8907079a-a456-8f16-7cba-45b73b62e012|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|199471629|113912500|241ce648-3acc-69c8-9f04-67ed19e8c248|86611589-e9af-41d4-8497-5b393aa207c9",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|199971629|119062500|251ce7db-7aa5-3a4c-daed-8ac1c0cb2f64|fa4a315a-5e34-47fc-8df7-c42bf0e30f04",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|218521629|113912500|83a65a35-177a-c9a6-19ed-4b997ff5ee3c|685e25d7-a656-4117-b484-0e1310c46fbc",
-          ""
-        ],
-        [
-          "silk_edge_clearance|199471629|112901875|241ce648-3acc-69c8-9f04-67ed19e8c248|df15781c-64f9-4c7a-81b2-00d4e0caf927",
-          ""
-        ],
-        [
-          "silk_over_copper|199471629|112901875|df15781c-64f9-4c7a-81b2-00d4e0caf927|241ce648-3acc-69c8-9f04-67ed19e8c248",
           ""
         ]
       ],
@@ -295,7 +267,8 @@
         0.1,
         0.15,
         0.2,
-        0.25
+        0.25,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -329,12 +302,16 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
+          "diameter": 0.4,
           "drill": 0.3
         },
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -619,23 +596,49 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1,
-        "name": "ANT",
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.45,
+        "track_width": 0.25,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.4,
         "via_drill": 0.3
       },
       {
-        "clearance": 0.1,
-        "name": "GND",
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -645,12 +648,44 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "ANT",
-        "pattern": "Net-(U1-ANT)"
-      },
-      {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-BATT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(F1-Pad2)"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "Net-(U2-USB_D+)"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "Net-(U2-USB_D-)"
       }
     ]
   },
@@ -669,7 +704,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -769,6 +804,30 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -819,7 +878,7 @@
         "uuid": "d92a227a-b637-3678-3dde-73c505c2d660"
       }
     ],
-    "used_designators": "#PWR1-13,BT1-2,TS1-2,U1,J1,R1-4,S1,C1",
+    "used_designators": "#PWR1-18,#PWR28-30,#PWR33,#PWR37-40,#PWR43-45,BT1-2,TS1-2,U1-3,J1-3,R1-6,S1,C1-2,C8,D1-44,Q1,F1,L1-4,SW1-42",
     "variants": []
   },
   "sheets": [

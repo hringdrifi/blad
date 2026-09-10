@@ -13,3 +13,8 @@ This KiCad export places center-origin Smiðr switch footprints from the physica
 - Backlight: no per-key backlight LEDs placed.
 - Direct-pin projects connect each switch between its direct GPIO net and GND.
 - Matrix projects connect switches and diodes using ROWn/COLn nets.
+- MS88SF21 symbol: `Smidr:MinewSemi_nRF52840_MS88SF21_5V_USB_Available` follows the MinewSemi Store product name `nRF52840-MS88SF21` and its `5V / USB Available` variant; the manufacturer hardware code `1Y40AI-U` is retained in the `Hardware Code` property.
+- MS88SF21 footprint: `Smidr:RF_Module_MinewSemi_MS88SF21` uses the manufacturer's 1.8 x 0.8 mm recommended lands and includes the PCB-antenna keepout.
+- MS88SF21 3D model: `smidr.3dshapes/MS88SF21.step` is generated locally from the manufacturer dimensions by `scripts/generate_ms88sf21_step.py`.
+- The MS88SF21 library assets are available for migration, but the existing HY0020 circuit and board placement have not been replaced yet.
+- Distributor order codes and module hardware codes are intentionally not used as the primary symbol name; record them as supplier-specific purchasing data when needed.

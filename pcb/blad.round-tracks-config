@@ -1,4 +1,5 @@
-Default	True	0.5	3
-ANT	True	2.0	3
-GND	True	2.0	3
+Default	True	1.0	3
+GND	True	1.0	3
+Power	True	1.0	3
+USB	True	1.0	3
 False	True	False

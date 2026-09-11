@@ -503,8 +503,8 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 9.525 21.43125)
-		(end 9.525 92.86875)
+		(start 9.525 20.6375)
+		(end 9.525 93.6625)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -513,9 +513,9 @@
 		(uuid "b739d45d-b4a2-4cf9-8181-17d92e5c6468")
 	)
 	(gr_arc
-		(start 9.525 21.43125)
-		(mid 10.222452 19.747452)
-		(end 11.90625 19.05)
+		(start 9.525 20.6375)
+		(mid 9.989968 19.514968)
+		(end 11.1125 19.05)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -524,9 +524,9 @@
 		(uuid "fd186e9d-3d75-4248-8e11-7a36e0883f8e")
 	)
 	(gr_arc
-		(start 11.90625 95.25)
-		(mid 10.222452 94.552548)
-		(end 9.525 92.86875)
+		(start 11.1125 95.25)
+		(mid 9.989968 94.785032)
+		(end 9.525 93.6625)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -535,8 +535,8 @@
 		(uuid "dedc0173-d358-4251-9a4b-c35860cf48f0")
 	)
 	(gr_line
-		(start 11.90625 95.25)
-		(end 235.74375 95.25)
+		(start 11.1125 95.25)
+		(end 236.53745 95.24995)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -4622,9 +4622,20 @@
 		(layer "Edge.Cuts")
 		(uuid "5f08fdc6-c1f6-43e1-9e39-cc6632ec56d3")
 	)
+	(gr_arc
+		(start 236.537484 19.05)
+		(mid 237.660012 19.514977)
+		(end 238.125 20.6375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "06a14f0e-3a95-41d0-bf1f-b6172e96be6f")
+	)
 	(gr_line
-		(start 235.74375 19.05)
-		(end 11.90625 19.05)
+		(start 236.5375 19.05)
+		(end 11.1125 19.05)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -4633,20 +4644,9 @@
 		(uuid "eef7b6a6-6267-4bee-872a-0177216b2c12")
 	)
 	(gr_arc
-		(start 235.74375 19.05)
-		(mid 237.427533 19.747467)
-		(end 238.125 21.43125)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "06a14f0e-3a95-41d0-bf1f-b6172e96be6f")
-	)
-	(gr_arc
-		(start 238.124999 92.86875)
-		(mid 237.427562 94.552562)
-		(end 235.74375 95.25)
+		(start 238.12495 93.662466)
+		(mid 237.659991 94.785002)
+		(end 236.53745 95.24995)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -4655,8 +4655,8 @@
 		(uuid "d594b236-17d9-421c-8852-fa71bae6025d")
 	)
 	(gr_line
-		(start 238.124999 92.86875)
-		(end 238.125 21.43125)
+		(start 238.12495 93.662466)
+		(end 238.125 20.6375)
 		(stroke
 			(width 0.1)
 			(type default)

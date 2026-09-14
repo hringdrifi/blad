@@ -538,7 +538,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../case/",
       "specctra_dsn": "",
       "step": "blad_bottom_plate.step",
       "vrml": ""

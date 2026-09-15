@@ -8,7 +8,7 @@ Blað is a compact wireless keyboard design project by [hringdrifi](https://gith
 
 ![Blað, top view](assets/blad-top-view.png)
 
-![Blað, side view](assets/blad-side-view.png)
+![Blað, bottom view](assets/blad-bottom-view.png)
 
 The design uses 42 Kailh Choc hot-swap switch positions and a [MinewSemi MS88SF21](https://en.minewsemi.com/bluetooth-module/nrf52840ms88sf21) wireless module. Development is currently targeting the MS88SF21 variant based on the Nordic nRF52840.
 

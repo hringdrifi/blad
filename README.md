@@ -20,11 +20,13 @@ The design supports the following keyboard components:
 - Kailh low-profile sockets
 - [Chosfox Cross-Core Low-Profile Stabilizers](https://chosfox.com/products/chosfox-cross-core-satellite-switch-for-low-profile-keyboards)
 
+All PCB components can be soldered by hand, so no reflow oven is required for assembly.
+
 Confirm the exact part variants and mechanical fit before ordering or manufacturing.
 
 ## Connectivity and firmware
 
-Blað is intended to support both Bluetooth Low Energy (BLE) and USB through the nRF52840-based MS88SF21. It continues to use a CR1632 lithium coin cell for battery operation.
+Blað is intended to support both Bluetooth Low Energy (BLE) and USB through the nRF52840-based MS88SF21. It uses a CR1632 lithium coin cell for battery operation. The nRF52840-based MS88SF21 module is TELEC-certified for use in Japan (Giteki compliant).
 
 The MS88SF21 is also available with an nRF52833, but the first hardware and firmware revision in this repository will target the nRF52840 version. Compatibility between the two module variants and with the existing PCB design is still being evaluated; verify the module pinout, footprint, power supply, USB routing, and firmware target before manufacturing hardware.
 

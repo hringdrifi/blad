@@ -46,7 +46,6 @@ Validate the module variant, PCB compatibility, USB implementation, switches, ba
 - [`case/`](case/) — STEP models for the case assembly
   - [`blad_switch_plate.step`](case/blad_switch_plate.step) — case switch plate
   - [`blad_bumper.step`](case/blad_bumper.step) — bumper layer
-  - [`blad_battery_cap.step`](case/blad_battery_cap.step) — battery cap
 - [`pcb/README.md`](pcb/README.md) — Smiðr KiCad-export details
 - [`case/README.md`](case/README.md) — case-model notes and file roles
 

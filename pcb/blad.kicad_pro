@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 14.0,
-          "width": 14.0
+          "height": 0.6,
+          "width": 1.325
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -131,10 +131,6 @@
         ],
         [
           "lib_footprint_mismatch|170649935|166122078|2f3ea3f6-93ea-4a5e-9754-d8e580607cc3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|170656251|169347500|d68618c1-4cf7-4ee0-8951-97a6e0719d9a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -307,7 +303,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -689,7 +685,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.3
@@ -757,23 +753,23 @@
       },
       {
         "netclass": "USB",
-        "pattern": "USB_D+"
+        "pattern": "USB_D*"
       },
       {
         "netclass": "USB",
-        "pattern": "USB_D-"
+        "pattern": "DP"
       },
       {
         "netclass": "USB",
-        "pattern": "Net-(U2-USB_D+)"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "Net-(U2-USB_D-)"
+        "pattern": "DN"
       },
       {
         "netclass": "Power",
         "pattern": "VDDH"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDD"
       }
     ]
   },

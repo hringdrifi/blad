@@ -87,7 +87,7 @@
 		(filling no)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_555555d0)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -103,7 +103,7 @@
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
 			(pdf_single_document no)
-			(dxfpolygonmode yes)
+			(dxfpolygonmode no)
 			(dxfimperialunits no)
 			(dxfusepcbnewfont yes)
 			(psnegative no)

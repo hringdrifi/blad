@@ -11060,7 +11060,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 180.34 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11161,7 +11161,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 27.94 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13668,7 +13668,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 27.94 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13769,7 +13769,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 53.34 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13870,7 +13870,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 281.94 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13971,7 +13971,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 307.34 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14072,7 +14072,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 129.54 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14173,7 +14173,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 154.94 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14274,7 +14274,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 78.74 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14375,7 +14375,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 104.14 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14554,7 +14554,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 180.34 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14732,7 +14732,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 205.74 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14833,7 +14833,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 281.94 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14934,7 +14934,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 307.34 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15035,7 +15035,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 53.34 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15136,7 +15136,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 78.74 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15237,7 +15237,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 205.74 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15338,7 +15338,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 129.54 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15439,7 +15439,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 180.34 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15540,7 +15540,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 231.14 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15641,7 +15641,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 154.94 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15742,7 +15742,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 231.14 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15843,7 +15843,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 129.54 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16112,7 +16112,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 256.54 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16213,7 +16213,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 104.14 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16314,7 +16314,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 281.94 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16415,7 +16415,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 78.74 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16594,7 +16594,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 27.94 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16695,7 +16695,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 53.34 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16796,7 +16796,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 281.94 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16897,7 +16897,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 256.54 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16998,7 +16998,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 231.14 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21918,7 +21918,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 205.74 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22019,7 +22019,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 180.34 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22120,7 +22120,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 154.94 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22221,7 +22221,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 129.54 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22322,7 +22322,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 104.14 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22423,7 +22423,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 78.74 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22602,7 +22602,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 53.34 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22793,7 +22793,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 27.94 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22948,7 +22948,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 256.54 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23049,7 +23049,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "1N4148W"
 			(at 231.14 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 12.5,
-          "width": 12.5
+          "drill": 0.6,
+          "height": 1.6,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -330,11 +330,11 @@
           ""
         ],
         [
-          "silk_over_copper|203259629|157162500|5dcf1186-c133-4487-bb7c-a84f8a7c57a6|db60f063-2ce0-57a4-2b49-8cf4bca32951",
+          "silk_over_copper|202941864|134018186|5dcf1186-c133-4487-bb7c-a84f8a7c57a6|e777e7e3-3ab9-f3f5-bd93-0fa7fd23aa02",
           ""
         ],
         [
-          "silk_over_copper|203700368|134818715|5dcf1186-c133-4487-bb7c-a84f8a7c57a6|e777e7e3-3ab9-f3f5-bd93-0fa7fd23aa02",
+          "silk_over_copper|203259629|157162500|5dcf1186-c133-4487-bb7c-a84f8a7c57a6|db60f063-2ce0-57a4-2b49-8cf4bca32951",
           ""
         ],
         [
@@ -450,7 +450,11 @@
           ""
         ],
         [
-          "silk_over_copper|279081533|157059525|8a767d91-8891-4968-b007-845f9afb07b8|caa2d8b7-358c-138f-ea34-f58a57e7502f",
+          "silk_over_copper|279204979|156470426|8a767d91-8891-4968-b007-845f9afb07b8|caa2d8b7-358c-138f-ea34-f58a57e7502f",
+          ""
+        ],
+        [
+          "starved_thermal|173196250|169862500|14d8a2b4-4dad-4f24-9337-dbb3a65aad82|be20e1a7-520d-4fc9-874b-5c017fb504c1|B.Cu",
           ""
         ]
       ],
